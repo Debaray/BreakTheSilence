@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Break The Silence</string>
+    <string name="title_activity_bottom_navigation">BottomNavigationActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="text_to_speech">Text to Speech</string>
+    <string name="speech_to_text">Speech to Text</string>
+    <string name="chat">Chat</string>
+    <string name="sign_image">Sign</string>
+    <string name="communication_string">Communication</string>
+    <string name="tranport_string">Transport</string>
+    <string name="hospital_string">Hospital</string>
+    <string name="restaurant_string">Restaurant</string>
+    <string name="shopping_string">Shopping</string>
+    <string name="need_a_new_account">NEED A NEW ACCOUNT?</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Enter Your Password</string>
+    <string name="create_account">Create Account</string>
+    <string name="logout">Logout</string>
+
+    <string name="login">Login</string>
+    <string name="your_password">Your Password</string>
+    <string name="login_to_your_account">Login to your Account</string>
+    <string name="your_email">Your Email</string>
+    <string name="default_status">Hi there, I\'m using Chat App</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="your_status">Your Status</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="create_a_new_account">Create a New Account</string>
+    <string name="profile_image">profile image</string>
+    <string name="decline_friend_request">DECLINE FAVOURITE REQUEST</string>
+    <string name="send_friend_request">SEND FAVOURITE REQUEST</string>
+    <string name="total_friends">Total Friends</string>
+    <string name="current_user_status">Current User Status</string>
+    <string name="display_name">Display Name</string>
+    <string name="change_status">CHANGE STATUS</string>
+    <string name="change_image">CHANGE IMAGE</string>
+    <string name="welcome_to_break_the_silence">Welcome to Break the Silence</string>
+    <string name="already_have_account">ALREADY HAVE ACCOUNT</string>
+    <string name="save_changes">SAVE CHANGES</string>
+    <string name="last_seen">Last Seen</string>
+    <string name="enter_button_text">enter button text</string>
+    <string name="type_a_message">Type a message...</string>
+
+
+</resources>

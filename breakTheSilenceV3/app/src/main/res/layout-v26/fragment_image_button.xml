@@ -1,0 +1,265 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.scray.breakthesilencev3.ImageButtonFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            
+            <LinearLayout
+                android:id="@+id/linearimmg1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp">
+
+                <ImageButton
+                    android:layout_weight="1"
+                    android:id="@+id/button1"
+                    android:src="@drawable/absent"
+                    android:textAllCaps="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginHorizontal="2dp"
+                    android:gravity="center"
+                    android:text="আজকে আমি অনুপস্থিত ছিলাম"
+                    />
+                <ImageButton
+                    android:layout_weight="1"
+                android:id="@+id/button2"
+                    android:src="@drawable/adult"
+                android:textAllCaps="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:layout_marginHorizontal="2dp"
+                android:gravity="center"
+                android:text="আপনি একজন প্রাপ্তবয়স্ক মানুষ ।"
+
+                />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/linearimmg2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearimmg1"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_marginBottom="5dp">
+
+                <ImageButton
+                    android:layout_weight="1"
+                    android:id="@+id/button3"
+                    android:src="@drawable/bring"
+                    android:textAllCaps="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginHorizontal="2dp"
+                    android:gravity="center"
+                    android:text="জিনিসটি নিয়ে আসো"
+                    />
+                <ImageButton
+                    android:layout_weight="1"
+                    android:id="@+id/button4"
+                    android:src="@drawable/complain"
+                    android:textAllCaps="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginHorizontal="2dp"
+                    android:gravity="center"
+                    android:text="আমি অভিযোগ করতে চাই । "
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/linearimmg3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearimmg2"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_marginBottom="5dp">
+
+                <ImageButton
+                    android:layout_weight="1"
+                    android:id="@+id/button5"
+                    android:src="@drawable/deaf"
+                    android:textAllCaps="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginHorizontal="2dp"
+                    android:gravity="center"
+                    android:text="আমি শুনতে পারি না ।"
+                    />
+                <ImageButton
+                    android:layout_weight="1"
+                    android:id="@+id/button6"
+                    android:src="@drawable/dishonest"
+                    android:textAllCaps="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginHorizontal="2dp"
+                    android:gravity="center"
+                    android:text="সে একজন অসৎ মানুষ ।"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/linearimmg4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearimmg3"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_marginBottom="5dp">
+
+                <ImageButton
+                    android:layout_weight="1"
+                    android:id="@+id/button7"
+                    android:src="@drawable/hit"
+                    android:textAllCaps="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginHorizontal="2dp"
+                    android:gravity="center"
+                    android:text="সে আমাকে আঘাত করেছে ।"
+                    />
+                <ImageButton
+                    android:layout_weight="1"
+                    android:id="@+id/button8"
+                    android:src="@drawable/ignore"
+                    android:textAllCaps="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginHorizontal="2dp"
+                    android:gravity="center"
+                    android:text="আপনি আমাকে অগ্রাহ্য করছেন । "
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearimmg5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearimmg4"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_marginBottom="5dp">
+
+                <ImageButton
+                    android:layout_weight="1"
+                    android:id="@+id/button11"
+                    android:src="@drawable/permission"
+                    android:textAllCaps="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginHorizontal="2dp"
+                    android:gravity="center"
+                    android:text="আমি কি আপনার অনুমতি পেতে পারি ?  "
+                    />
+                <ImageButton
+                    android:layout_weight="1"
+                    android:id="@+id/button12"
+                    android:src="@drawable/save"
+                    android:textAllCaps="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginHorizontal="2dp"
+                    android:gravity="center"
+                    android:text="আমি আত্মরক্ষা করেছি "
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/linearimmg6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearimmg5"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_marginBottom="5dp">
+
+
+
+                <ImageButton
+                    android:layout_weight="1"
+                    android:id="@+id/button13"
+                    android:src="@drawable/torture"
+                    android:textAllCaps="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginHorizontal="2dp"
+                    android:gravity="center"
+                    android:text="আপনি আমাকে অত্যাচার করছেন ।"
+
+                    />
+                <ImageButton
+                    android:layout_weight="1"
+                    android:id="@+id/button14"
+                    android:src="@drawable/urine"
+                    android:textAllCaps="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginHorizontal="2dp"
+                    android:gravity="center"
+                    android:text="আমি বাথরুমে যেতে চাই ।"
+
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearimmg7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearimmg6"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_marginBottom="5dp">
+
+                <ImageButton
+                    android:id="@+id/button9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="2dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:src="@drawable/insult"
+                    android:text="আপনি আমাকে অপমান করছে। "
+                    android:textAllCaps="false" />
+
+                <ImageButton
+                    android:id="@+id/button10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="2dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:src="@drawable/pass"
+                    android:text="সে আমাকে অতিক্রম করে গেছেন । "
+                    android:textAllCaps="false" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

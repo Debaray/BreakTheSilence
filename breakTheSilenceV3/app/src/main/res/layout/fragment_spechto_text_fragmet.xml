@@ -1,0 +1,44 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.scray.breakthesilencev3.SpechtoTextFragmet">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:weightSum="15">
+
+
+            <ImageView
+                android:id="@+id/speak_button"
+                android:layout_weight="10"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/microphone" />
+
+
+            <TextView
+                android:layout_weight="4"
+                android:id="@+id/voiceInput"
+                android:layout_below="@+id/speak_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:textSize="35sp"
+                android:textStyle="normal"
+
+                />
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+</FrameLayout>

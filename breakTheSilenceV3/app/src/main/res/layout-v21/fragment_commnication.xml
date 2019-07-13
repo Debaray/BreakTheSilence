@@ -1,0 +1,279 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.scray.breakthesilencev3.CommnicationFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <LinearLayout
+                android:id="@+id/linearcomLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+                <AutoCompleteTextView
+                    android:id="@+id/editButtonText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="6"
+                    android:hint="enter button text"
+                    android:inputType="text"
+                    android:selectAllOnFocus="true"
+                    android:singleLine="true"
+                    android:textAllCaps="false"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/generateButtonId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:text="Generate Button"
+                    android:textAllCaps="false" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/linearcomLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:orientation="horizontal"
+                android:layout_below="@+id/linearcomLayout1"
+                android:weightSum="10">
+
+                <AutoCompleteTextView
+                    android:id="@+id/editText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="6"
+                    android:hint="enter text"
+                    android:inputType="text"
+                    android:selectAllOnFocus="true"
+                    android:singleLine="true"
+                    android:textAllCaps="false"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/sayButtonId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:text="Say it"
+                    android:textAllCaps="false"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearcomLayout3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:orientation="horizontal"
+                android:layout_below="@+id/linearcomLayout2"
+                android:weightSum="10">
+
+                <Button
+                    android:id="@+id/shagotomButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:text="স্বাগতম"
+
+                    />
+                <Button
+
+                    android:id="@+id/apniKmnAchen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:text="আপনি কেমন আছেন??"
+
+                    />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/linearcomLayout4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:orientation="horizontal"
+                android:layout_below="@+id/linearcomLayout3"
+                android:weightSum="10">
+
+                <Button
+                    android:id="@+id/shobKhbrValo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:text="সব খবর ভালো??"
+
+                    />
+                <Button
+                    android:id="@+id/amiValoAchiApni"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:text="আমি ভালো আছি। আপনি??"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearcomLayout5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:orientation="horizontal"
+                android:layout_below="@+id/linearcomLayout4"
+                android:weightSum="10">
+
+                <Button
+                    android:id="@+id/basharShobaiValoAche"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:text="বাসার সবাই ভালো আছে।"
+
+                    />
+                <Button
+                    android:id="@+id/shobaikNiyeBashayAshben"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:text="সবাইকে নিয়ে বাসায় আসবেন।"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/linearcomLayout6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:orientation="horizontal"
+                android:layout_below="@+id/linearcomLayout5"
+                android:weightSum="10"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/apnarShatePorichoyHoyeValoLaglo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:text="আপনার সাথে পরিচয় হয়ে ভালো লাগলো।"
+
+                    />
+                <Button
+                    android:id="@+id/dhonnobaad"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:text="ধন্যবাদ"
+
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/linearcomLayout7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:orientation="vertical"
+                android:layout_below="@+id/linearcomLayout6"
+                android:weightSum="8"
+                android:gravity="center">
+
+
+                <Button
+                    android:id="@+id/b1"
+                    android:textAllCaps="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:layout_weight="1"
+
+                    />
+                <Button
+                    android:id="@+id/b2"
+                    android:textAllCaps="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:layout_weight="1"
+                    />
+                <Button
+                    android:id="@+id/b3"
+                    android:textAllCaps="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:layout_weight="1"
+
+                    />
+                <Button
+                    android:id="@+id/b4"
+                    android:textAllCaps="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:layout_weight="1"
+                    />
+                <Button
+                    android:id="@+id/b5"
+                    android:textAllCaps="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+
+                    android:layout_weight="1"
+                    />
+                <Button
+                    android:id="@+id/b6"
+                    android:textAllCaps="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    />
+                <Button
+                    android:id="@+id/b7"
+                    android:textAllCaps="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:layout_weight="1"
+
+                    />
+                <Button
+                    android:id="@+id/b8"
+                    android:textAllCaps="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:layout_weight="1"
+                    />
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</FrameLayout>

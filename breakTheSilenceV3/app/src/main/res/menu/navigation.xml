@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_tts"
+        android:icon="@drawable/speak"
+        android:title="@string/text_to_speech"
+
+        />
+
+    <item
+        android:id="@+id/navigation_stt"
+        android:icon="@drawable/listen"
+        android:title="@string/speech_to_text"
+       />
+
+    <item
+        android:id="@+id/navigation_chat"
+        android:icon="@drawable/chat"
+        android:title="@string/chat"
+       />
+    <item
+        android:id="@+id/navigation_image"
+        android:icon="@drawable/image"
+        android:title="@string/sign_image"
+        />
+
+</menu>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_communication"
+        android:icon="@drawable/community"
+        android:title="@string/communication_string"
+        />
+    <item
+        android:id="@+id/navigation_transport"
+        android:icon="@drawable/transport"
+        android:title="@string/tranport_string"
+        />
+    <item
+        android:id="@+id/navigation_shopping"
+        android:title="@string/shopping_string"
+        android:icon="@drawable/shopping"
+        />
+    <item
+        android:id="@+id/navigation_hospital"
+        android:title="@string/hospital_string"
+        android:icon="@drawable/hospital"
+        />
+    <item
+        android:id="@+id/navigation_restaurent"
+        android:title="@string/restaurant_string"
+        android:icon="@drawable/restaurent"
+        />
+
+
+
+</menu>

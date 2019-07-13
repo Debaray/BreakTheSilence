@@ -1,0 +1,35 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment_tts"
+    tools:context="com.example.scray.breakthesilencev3.TextToSpeechFragment">
+
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/bottomNavigationItemViewTTS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#242e89"
+        app:itemIconTint="#ffffff"
+        app:itemTextColor="#ffffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:menu="@menu/app_bar_menu">
+
+    </android.support.design.widget.BottomNavigationView>
+
+    <FrameLayout
+        android:id="@+id/text_to_speech_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="56dp">
+
+
+
+    </FrameLayout>
+
+
+</FrameLayout>
