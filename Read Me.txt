@@ -1,0 +1,20 @@
+Our main task was implementing Text to Speech and Speech to Text conversion in our
+application. But apart from that we have implemented some more features. Such as
+
+
+• Button Generation
+        The user can generate buttons as their requirement.
+• Network Connection
+        The application can connected to their own own mobile network.
+• Notification
+        User will receive notification when a request is made and if any massage is received.
+• Chat Communication
+        Besides Text to speech and Speech to text the uses can communicate via receiving and
+        sending massage.
+• Auto Suggestion
+In main Interface
+       •Communication Interface
+       • Transport Interface
+       • Shopping Interface
+       • Hospital Interface
+       • Restaurant Interface
